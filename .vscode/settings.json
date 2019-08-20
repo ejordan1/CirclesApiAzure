@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4cc1b304-1390-4dd4-a59e-fd0fb2a212a3/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/dragonslayer555",
+    "appService.deploySubpath": ""
+}
