@@ -2,14 +2,16 @@
 using MessagesServer.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MessagesServer.Solution.Migrations
 {
     [DbContext(typeof(MessagesServerContext))]
-    partial class MessagesServerContextModelSnapshot : ModelSnapshot
+    [Migration("20190820170024_changeusername")]
+    partial class changeusername
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -23,9 +25,9 @@ namespace MessagesServer.Solution.Migrations
 
                     b.Property<string>("MessageNote");
 
-                    b.Property<int>("MessageNumber");
-
                     b.Property<string>("MessageText");
+
+                    b.Property<int>("MessagerNumber");
 
                     b.Property<string>("UserName");
 

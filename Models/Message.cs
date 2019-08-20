@@ -13,7 +13,7 @@ namespace MessagesServer.Models
 
         public string MessageText { get; set; }
 
-        public int MessagerNumber { get; set; }
+        public int MessageNumber { get; set; }
 
         public string MessageNote { get; set; }
     }
