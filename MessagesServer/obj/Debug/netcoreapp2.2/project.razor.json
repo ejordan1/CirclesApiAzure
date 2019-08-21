@@ -2943,13 +2943,13 @@
   "RootNamespace": "MessagesServer.Solution",
   "Documents": [
     {
-      "FilePath": "Views/Home/Index.cshtml",
-      "TargetPath": "Views/Home/Index.cshtml",
+      "FilePath": "Views/Messages.cshtml/Index.cshtml",
+      "TargetPath": "Views/Messages.cshtml/Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views/Shared/_Layout.cshtml",
+      "FilePath": "Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
       "FileKind": "mvc"
     }
   ],

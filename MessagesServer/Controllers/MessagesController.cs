@@ -10,7 +10,8 @@ namespace MessagesServer.Controllers
 {
 
     // [ApiController]
-    public class MessagesController : ControllerBase
+    //make it ControllerBase again
+    public class MessagesController : Controller
     {
         private MessagesServerContext _db = new MessagesServerContext();
 
@@ -27,6 +28,12 @@ namespace MessagesServer.Controllers
         {
             _db.Messages.Add(message);
             _db.SaveChanges();
+        }
+
+
+        public IActionResult Index()
+        {
+            return View();
         }
     }
 }
