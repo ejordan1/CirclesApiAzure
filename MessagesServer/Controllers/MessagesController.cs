@@ -13,7 +13,15 @@ namespace MessagesServer.Controllers
     //make it ControllerBase again
     public class MessagesController : Controller
     {
-        private MessagesServerContext _db = new MessagesServerContext();
+
+        private readonly MessagesServerContext _db;
+        // = new MessagesServerContext();
+
+        public MessagesController(MessagesServerContext db)
+        {
+            _db = db;
+        }
+
 
         // GET api/animals
         [HttpGet]
@@ -31,7 +39,7 @@ namespace MessagesServer.Controllers
         }
 
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
