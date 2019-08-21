@@ -2943,6 +2943,11 @@
   "RootNamespace": "MessagesServer.Solution",
   "Documents": [
     {
+      "FilePath": "Views/Test/Index.cshtml",
+      "TargetPath": "Views/Test/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Messages.cshtml/Index.cshtml",
       "TargetPath": "Views/Messages.cshtml/Index.cshtml",
       "FileKind": "mvc"
@@ -2950,6 +2955,11 @@
     {
       "FilePath": "Views/Home/Index.cshtml",
       "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Test/TestPage.cshtml",
+      "TargetPath": "Views/Test/TestPage.cshtml",
       "FileKind": "mvc"
     }
   ],
