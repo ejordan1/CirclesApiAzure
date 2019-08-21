@@ -8,8 +8,8 @@ using MessagesServer.Models;
 
 namespace MessagesServer.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+
+    // [ApiController]
     public class MessagesController : ControllerBase
     {
         private MessagesServerContext _db = new MessagesServerContext();
