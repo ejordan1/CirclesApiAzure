@@ -1,22 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
 namespace MessagesServer.Models
 {
     public class MessagesServerContext : DbContext
     {
-
-        public DbSet<Message> Messages { get; set; }
-
-
-
-        public MessagesServerContext(DbContextOptions options) : base(options)
+        public MessagesServerContext(DbContextOptions<MessagesServerContext> options)
+            : base(options)
         {
-
-        }
-        public MessagesServerContext()
-        {
-
         }
 
+        public DbSet<MessagesServer.Models.Message> Messages { get; set; }
     }
 }
