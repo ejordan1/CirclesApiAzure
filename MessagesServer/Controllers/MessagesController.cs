@@ -1,12 +1,10 @@
-// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using Microsoft.AspNetCore.Mvc;
-// using Microsoft.EntityFrameworkCore;
-// using MessagesServer.Models;
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MessagesServer.Models;
+
 
 
 namespace MessagesServer.Controllers
@@ -17,21 +15,21 @@ namespace MessagesServer.Controllers
     public class MessagesController : Controller
     {
 
-        // private readonly MessagesServerContext _db;
-        // // = new MessagesServerContext();
+        private readonly MessagesServerContext _db;
+        // = new MessagesServerContext();
 
-        // public MessagesController(MessagesServerContext db)
-        // {
-        //     _db = db;
-        // }
+        public MessagesController(MessagesServerContext db)
+        {
+            _db = db;
+        }
 
 
-        // // GET api/animals
-        // [HttpGet]
-        // public ActionResult<IEnumerable<Message>> Get()
-        // {
-        //     return _db.Messages.ToList();
-        // }
+        // GET api/animals
+        [HttpGet]
+        public ActionResult<IEnumerable<Message>> Get()
+        {
+            return _db.Messages.ToList();
+        }
 
         // // POST api/values
         // [HttpPost]
