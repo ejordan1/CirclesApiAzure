@@ -31,13 +31,13 @@ namespace MessagesServer.Controllers
             return _db.Messages.ToList();
         }
 
-        // // POST api/values
-        // [HttpPost]
-        // public void Post([FromBody] Message message)
-        // {
-        //     _db.Messages.Add(message);
-        //     _db.SaveChanges();
-        // }
+        // POST api/values
+        [HttpPost]
+        public void Post([FromBody] Message message)
+        {
+            _db.Messages.Add(message);
+            _db.SaveChanges();
+        }
 
 
         public ActionResult Index()
