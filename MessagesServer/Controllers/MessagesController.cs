@@ -14,29 +14,29 @@ namespace MessagesServer.Controllers
     public class MessagesController : Controller
     {
 
-        private readonly MessagesServerContext _db;
-        // = new MessagesServerContext();
+        // private readonly MessagesServerContext _db;
+        // // = new MessagesServerContext();
 
-        public MessagesController(MessagesServerContext db)
-        {
-            _db = db;
-        }
+        // public MessagesController(MessagesServerContext db)
+        // {
+        //     _db = db;
+        // }
 
 
-        // GET api/animals
-        [HttpGet]
-        public ActionResult<IEnumerable<Message>> Get()
-        {
-            return _db.Messages.ToList();
-        }
+        // // GET api/animals
+        // [HttpGet]
+        // public ActionResult<IEnumerable<Message>> Get()
+        // {
+        //     return _db.Messages.ToList();
+        // }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] Message message)
-        {
-            _db.Messages.Add(message);
-            _db.SaveChanges();
-        }
+        // // POST api/values
+        // [HttpPost]
+        // public void Post([FromBody] Message message)
+        // {
+        //     _db.Messages.Add(message);
+        //     _db.SaveChanges();
+        // }
 
 
         public ActionResult Index()
