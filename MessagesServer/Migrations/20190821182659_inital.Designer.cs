@@ -8,15 +8,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MessagesServer.Solution.Migrations
 {
     [DbContext(typeof(MessagesServerContext))]
-    [Migration("20190819231002_Initial")]
-    partial class Initial
+    [Migration("20190821182659_inital")]
+    partial class inital
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
             modelBuilder.Entity("MessagesServer.Models.Message", b =>
                 {
@@ -25,15 +24,15 @@ namespace MessagesServer.Solution.Migrations
 
                     b.Property<string>("MessageNote");
 
-                    b.Property<string>("MessageText");
+                    b.Property<int>("MessageNumber");
 
-                    b.Property<int>("MessagerNumber");
+                    b.Property<string>("MessageText");
 
                     b.Property<string>("UserName");
 
                     b.HasKey("MessageId");
 
-                    b.ToTable("Messages");
+                    b.ToTable("messages");
                 });
 #pragma warning restore 612, 618
         }
