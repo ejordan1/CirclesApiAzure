@@ -28,14 +28,14 @@ namespace MessagesServer.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Message>> Get()
         {
-            return _db.Messages.ToList();
+            return _db.MessagesTest1.ToList();
         }
 
         // POST api/values
         [HttpPost]
         public void Post([FromBody] Message message)
         {
-            _db.Messages.Add(message);
+            _db.MessagesTest1.Add(message);
             _db.SaveChanges();
         }
 
