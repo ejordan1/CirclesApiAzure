@@ -13,6 +13,6 @@ namespace MessagesServer.Models
         {
         }
 
-        public DbSet<MessagesServer.Models.Message> Messages { get; set; }
+        public DbSet<MessagesServer.Models.Message> MessagesTest1 { get; set; }
     }
 }
