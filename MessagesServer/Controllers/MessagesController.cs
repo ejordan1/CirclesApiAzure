@@ -32,15 +32,16 @@ namespace MessagesServer.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Message>> Get()
         {
-            Message newMessage = new Message();
-            Random ran = new Random();
-            newMessage.MessageId = ran.Next(0, 10000);
-            newMessage.MessageNote = "test";
-            newMessage.MessageText = "auto generated";
-            newMessage.MessageNumber = 1;
+            
+            // Message newMessage = new Message();
+            // Random ran = new Random();
+            // newMessage.MessageId = ran.Next(0, 10000);
+            // newMessage.MessageNote = "test";
+            // newMessage.MessageText = "auto generated";
+            // newMessage.MessageNumber = 1;
 
-            _db.MessagesTest1.Add(newMessage);
-            _db.SaveChangesAsync();
+            // _db.MessagesTest1.Add(newMessage);
+            // _db.SaveChangesAsync();
 
             return _db.MessagesTest1.ToList();
             //return View();
