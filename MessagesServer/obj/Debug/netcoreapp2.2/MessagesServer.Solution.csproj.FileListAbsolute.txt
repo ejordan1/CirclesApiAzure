@@ -54,3 +54,15 @@
 /Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.RazorTargetAssemblyInfo.cache
 /Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.dll
 /Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.pdb
+/Users/Guest/Desktop/MessagesServer/MessagesServer/bin/Debug/netcoreapp2.2/MessagesServer.Solution.Views.dll
+/Users/Guest/Desktop/MessagesServer/MessagesServer/bin/Debug/netcoreapp2.2/MessagesServer.Solution.Views.pdb
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.TagHelpers.input.cache
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.TagHelpers.output.cache
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.RazorCoreGenerate.cache
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Index.g.cshtml.cs
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/Razor/Views/Test/Index.g.cshtml.cs
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/Razor/Views/Test/TestPage.g.cshtml.cs
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.RazorTargetAssemblyInfo.cs
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.Views.pdb
+/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/Debug/netcoreapp2.2/MessagesServer.Solution.csproj.CopyComplete

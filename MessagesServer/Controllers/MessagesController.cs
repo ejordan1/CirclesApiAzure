@@ -28,6 +28,15 @@ namespace MessagesServer.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Message>> Get()
         {
+            Message newMessage = new Message();
+            newMessage.MessageId = 111;
+            newMessage.MessageNote = "test";
+            newMessage.MessageText = "auto generated";
+            newMessage.MessageNumber = 1;
+
+            _db.MessagesTest1.Add(newMessage);
+            _db.SaveChanges();
+
             return _db.MessagesTest1.ToList();
         }
 
