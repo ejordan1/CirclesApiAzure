@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace MessagesServer.Controllers
 {
 
-    // [ApiController]
+    // [ApiController]/
     //make it ControllerBase again
     public class MessagesController2 : Controller
     {
