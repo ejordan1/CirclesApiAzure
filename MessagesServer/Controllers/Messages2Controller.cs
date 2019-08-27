@@ -16,20 +16,20 @@ namespace MessagesServer.Controllers
 
     // [ApiController]
     //make it ControllerBase again
-    public class MessagesController : Controller
+    public class MessagesController2 : Controller
     {
 
         private readonly MessagesServerContext _db;
         // = new MessagesServerContext();
 
-        public MessagesController(MessagesServerContext db)
+        public MessagesController2(MessagesServerContext db)
         {
             _db = db;
         }
 
         // GET api/animals
         [HttpGet]
-        public ActionResult<IEnumerable<Message>> Get()
+        public ActionResult<IEnumerable<Message2>> Get()
         {
             
             // Message newMessage = new Message();
@@ -42,15 +42,15 @@ namespace MessagesServer.Controllers
             // _db.MessagesTest1.Add(newMessage);
             // _db.SaveChangesAsync();
 
-            return _db.MessagesTest1.ToList();
+            return _db.MessagesTest2.ToList();
             //return View();
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] Message message)
+        public void Post([FromBody] Message2 message2)
         {
-            _db.MessagesTest1.Add(message);
+            _db.MessagesTest2.Add(message2);
             _db.SaveChanges();
         }
 

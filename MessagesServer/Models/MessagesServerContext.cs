@@ -14,5 +14,6 @@ namespace MessagesServer.Models
         }
 
         public DbSet<MessagesServer.Models.Message> MessagesTest1 { get; set; }
+        public DbSet<MessagesServer.Models.Message2> MessagesTest2 { get; set; }
     }
 }
