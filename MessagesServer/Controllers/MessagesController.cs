@@ -33,7 +33,8 @@ namespace MessagesServer.Controllers
         public ActionResult<IEnumerable<Message>> Get()
         {
             Message newMessage = new Message();
-            newMessage.MessageId = 111;
+            Random ran = new Random();
+            newMessage.MessageId = ran.Next(0, 10000);
             newMessage.MessageNote = "test";
             newMessage.MessageText = "auto generated";
             newMessage.MessageNumber = 1;
