@@ -12,7 +12,7 @@ namespace Circles_API.Controllers
     public class TagsController : ControllerBase
     {
         private Circles_APIContext _db;
-
+        private static int _currentId = 1000;
         public TagsController(Circles_APIContext db)
         {
             _db = db;

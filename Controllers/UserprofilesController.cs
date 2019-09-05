@@ -12,7 +12,7 @@ namespace Circles_API.Controllers
     public class UserprofilesController : ControllerBase
     {
 
-        private int currentId = 100;
+        private static int _currentId = 1000;
         private Circles_APIContext _db;
         private static int _currentPage = 1;    // Must be 1
         private static int _entriesPerPage = 4;     // This can be changed

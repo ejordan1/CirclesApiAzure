@@ -11,7 +11,7 @@ namespace Circles_API.Controllers
     [ApiController]
     public class CirclesController : ControllerBase
     {
-        private static int _currentCircleId = 100;
+        private static int _currentId = 1000;
         private Circles_APIContext _db;
         private static int _currentPage = 1;    // Must be 1
         private static int _entriesPerPage = 4;     // This can be changed
@@ -95,8 +95,8 @@ namespace Circles_API.Controllers
         [HttpPost]
         public void Post([FromBody] Circle circle)
         {
-            circle.CircleId = _currentCircleId;
-            _currentCircleId++;
+            circle.CircleId = _currentId;
+            _currentId++;
             _db.Circles.Add(circle);
             _db.SaveChanges();
         }
