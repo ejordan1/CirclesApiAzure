@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MessagesServer.Solution.Migrations
 {
     [DbContext(typeof(MessagesServerContext))]
-    [Migration("20190826215005_ChangDbName")]
-    partial class ChangDbName
+    [Migration("20190905201308_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,6 +33,24 @@ namespace MessagesServer.Solution.Migrations
                     b.HasKey("MessageId");
 
                     b.ToTable("messages");
+                });
+
+            modelBuilder.Entity("MessagesServer.Models.Message2", b =>
+                {
+                    b.Property<int>("MessageId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("MessageNote");
+
+                    b.Property<int>("MessageNumber");
+
+                    b.Property<string>("MessageText");
+
+                    b.Property<string>("UserName");
+
+                    b.HasKey("MessageId");
+
+                    b.ToTable("messages2");
                 });
 #pragma warning restore 612, 618
         }

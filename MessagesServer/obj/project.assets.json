@@ -13342,11 +13342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/MessagesServer/MessagesServer/MessagesServer.Solution.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/MessageServer/MessagesServer/MessagesServer.Solution.csproj",
       "projectName": "MessagesServer.Solution",
-      "projectPath": "/Users/Guest/Desktop/MessagesServer/MessagesServer/MessagesServer.Solution.csproj",
+      "projectPath": "/Users/Guest/Desktop/MessageServer/MessagesServer/MessagesServer.Solution.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/MessagesServer/MessagesServer/obj/",
+      "outputPath": "/Users/Guest/Desktop/MessageServer/MessagesServer/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
