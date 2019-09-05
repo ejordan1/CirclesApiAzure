@@ -4,7 +4,8 @@ using Circles_API.Models;
 
 namespace Circles_API.Controllers
 {
-    public class TestController : Controller
+    [ApiController]
+    public class TestController : ControllerBase
     {
 
         public int Index()
