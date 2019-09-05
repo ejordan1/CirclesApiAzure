@@ -4,19 +4,19 @@ using Circles_API.Models;
 
 namespace Circles_API.Controllers
 {
-    // [ApiController]
-    public class TestController : Controller
+     [ApiController]
+    public class TestController : ControllerBase
     {
-
-        public int Index()
+        [HttpGet]
+        public ActionResult<int> Index()
         {
            return 555;
         }
 
-
-        public ActionResult TestPage()
-        {
-            return View();
-        }
+        
+        // public ActionResult TestPage()
+        // {
+        //     return View();
+        // }
     }
 }
