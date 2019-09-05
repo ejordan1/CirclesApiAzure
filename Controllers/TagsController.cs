@@ -42,6 +42,8 @@ namespace Circles_API.Controllers
         [HttpPost]
         public void Post([FromBody] Tag tag)
         {
+            tag._currentId = _currentId;
+            _currentId++;
             _db.Tags.Add(tag);
             _db.SaveChanges();
         }

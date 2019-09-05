@@ -232,8 +232,8 @@ namespace Circles_API.Controllers
         [HttpPost]
         public void Post([FromBody] Userprofile userprofile)
         {
-            userprofile.UserprofileId = currentId;
-            currentId++;
+            userprofile.UserprofileId = _currentId;
+            _currentId++;
             _db.Userprofiles.Add(userprofile);
             _db.SaveChanges();
         }
