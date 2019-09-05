@@ -13342,11 +13342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/MessageServer/MessagesServer.Solution.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/CirclesAPIAzure/MessagesServer.Solution.csproj",
       "projectName": "MessagesServer.Solution",
-      "projectPath": "/Users/Guest/Desktop/MessageServer/MessagesServer.Solution.csproj",
+      "projectPath": "/Users/Guest/Desktop/CirclesAPIAzure/MessagesServer.Solution.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/MessageServer/obj/",
+      "outputPath": "/Users/Guest/Desktop/CirclesAPIAzure/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,0 +1,40 @@
+{
+  "FilePath": "/Users/Guest/Desktop/CirclesAPIAzure/MessagesServer.Solution.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "MessagesServer.Solution",
+  "Documents": [
+    {
+      "FilePath": "Views/Test/Index.cshtml",
+      "TargetPath": "Views/Test/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Messages/Index.cshtml",
+      "TargetPath": "Views/Messages/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Test/TestPage.cshtml",
+      "TargetPath": "Views/Test/TestPage.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

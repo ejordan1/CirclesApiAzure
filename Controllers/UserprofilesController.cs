@@ -11,6 +11,8 @@ namespace Circles_API.Controllers
     [ApiController]
     public class UserprofilesController : ControllerBase
     {
+
+        private int currentId = 100;
         private Circles_APIContext _db;
         private static int _currentPage = 1;    // Must be 1
         private static int _entriesPerPage = 4;     // This can be changed
@@ -230,6 +232,8 @@ namespace Circles_API.Controllers
         [HttpPost]
         public void Post([FromBody] Userprofile userprofile)
         {
+            userprofile.UserprofileId = currentId;
+            currentId++;
             _db.Userprofiles.Add(userprofile);
             _db.SaveChanges();
         }
