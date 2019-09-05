@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/MessagesServer/MessagesServer.Solution.csproj",
+                "${workspaceFolder}/MessagesServer.Solution.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/MessagesServer/MessagesServer.Solution.csproj",
+                "${workspaceFolder}/MessagesServer.Solution.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/MessagesServer/MessagesServer.Solution.csproj",
+                "${workspaceFolder}/MessagesServer.Solution.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
