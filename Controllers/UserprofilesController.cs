@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Circles_API.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserprofilesController : ControllerBase
     {
