@@ -7,9 +7,9 @@ namespace Circles_API.Controllers
     public class TestController : Controller
     {
 
-        public ActionResult Index()
+        public int Index()
         {
-            return View();
+           return 555;
         }
 
 
