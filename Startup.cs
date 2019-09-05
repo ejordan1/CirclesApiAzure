@@ -72,7 +72,7 @@ namespace Circles_API
              {
                  routes.MapRoute(
                      name: "default",
-                     template: "{controller=Circles}/{action=Index}/{id?}");
+                     template: "{controller=Test}/{action=Index}/{id?}");
              });
         }
     }

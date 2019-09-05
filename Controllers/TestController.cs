@@ -4,7 +4,8 @@ using Circles_API.Models;
 
 namespace Circles_API.Controllers
 {
-     [ApiController]
+    [Route("[controller]")]
+    [ApiController]
     public class TestController : ControllerBase
     {
         [HttpGet]
